@@ -31,6 +31,7 @@ header img{
 }
 
 ul{
+    width: 32%;
     display: flex;
     position: relative;
     left: 5%;
@@ -61,10 +62,11 @@ ul li a{
 }
 
 .intro p{
+    background-color: red;
     font-family: "Alatsi", sans-serif;
     font-weight: 200;
     position: relative;
-    left: 3%;
+    width: 50%;
     bottom: 3vh;
 }
 
