@@ -99,30 +99,19 @@ header .title{
     height: 66.6vh;
 }
 
-.about h2{
-    text-align: center;
-    width: 20vh;
-    font-family: "Fira Sans", sans-serif;
-    font-weight: 700;
-    font-size: 5vh;
-    position: relative;
-    left: 153vh;
-    top: 12vh;
-}
-
 .about p{
     text-align: center;
     font-family: "Alata", sans-serif;
     font-weight: 400;
     position: relative;
-    left: 132vh;
+    left: 120vh;
     top: 12vh;
-    width: 60vh;
+    width: 90vh;
 }
 
 .about img{
     position: relative;
-    bottom: 38.1vh;
+    bottom: 35.1vh;
     width: 99.9vh;
 }
 
@@ -134,7 +123,7 @@ header .title{
     font-size: 6vh;
     position: relative;
     top: 3vh;
-    left: 90vh;
+    left: 95vh;
 }
 
 .benefits p{
@@ -144,46 +133,48 @@ header .title{
     text-align: center;
     position: relative;
     top: 3vh;
+    left: 28vh;
+    width: 165vh;
     height: 7vh;
 }
 
-.freedom h3{
+.customization h3{
     font-family: "Fira Sans", sans-serif;
     font-weight: 600;
     font-size: 40px;
     text-align: center;
     position: relative;
-    left: 50vh;
+    left: 45vh;
     top: 6vh;
     width: 35vh;
 }
 
-.freedom p{
+.customization p{
     font-family: "Alata", sans-serif;
     font-weight: 400;
     text-align: center;
     position: relative;
-    left: 47vh;
+    left: 36vh;
     top: 6vh;
-    width: 40vh;
+    width: 60vh;
 }
 
-.pride{
+.conversion{
     height: 10vh;
 }
 
-.pride h3{
+.conversion h3{
     font-family: "Fira Sans", sans-serif;
     font-weight: 600;
     font-size: 40px;
     text-align: center;
     position: relative;
     bottom: 20vh;
-    left: 130vh;
-    width: 35vh;
+    left: 124vh;
+    width: 50vh;
 }
 
-.pride p{
+.conversion p{
     font-family: "Alata", sans-serif;
     font-weight: 400;
     text-align: center;
@@ -193,34 +184,43 @@ header .title{
     width: 45vh;
 }
 
-.grafification h3{
+.flexibility h3{
     text-align: center;
     font-family: "Alata", sans-serif;
     font-weight: 400;
     font-size: 5vh;
     width: 30vh;
     position: relative;
-    left: 88vh;
+    left: 95vh;
 }
 
-.grafification p{
+.flexibility p{
     text-align: center;
     font-family: "Alata", sans-serif;
     font-weight: 400;
-    width: 45vh;
+    width: 50vh;
     position: relative;
-    left: 80vh;
+    left: 84vh;
+}
+
+.action{
+    font-family: "Alata", sans-serif;
+    font-weight: 400;
+    text-align: center;
+    position: relative;
+    left: 32vh;
+    width: 150vh;
 }
 
 .btn-yes button{
     position: relative;
-    left: 60vh;
+    left: 67vh;
     width: 80vh;
     height: 10vh;
+    margin: 2vh;
     border-radius: 10px;
-    border: 1px solid #dfba01;
-    background-color: #dfba01;
-    margin: 3vh;
+    border: 1px solid #0f79ba;
+    background-color: #0f79ba;
     font-family: "Ubuntu", sans-serif;
     font-weight: 300;
     font-size: 20px;
@@ -228,12 +228,12 @@ header .title{
 
 .btn-no button{
     position: relative;
-    left: 61vh;
+    left: 67vh;
     width: 80vh;
     height: 5vh;
     margin: 2vh;
-    color: #dfba01;
-    border: 2px solid #dfba01;
+    color: #0f79ba;
+    border: 2px solid #0f79ba;
     border-radius: 20px;
     background-color: rgba(255, 0, 0, 0);
     font-family: "Ubuntu", sans-serif;
