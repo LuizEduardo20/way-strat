@@ -274,17 +274,21 @@ footer ul{
         box-sizing: border-box;
     }
 
+    header{
+        height: 20vh;
+    }
+
     header .logo{
         display: none;
+    }
+
+    header .title{
+      display: none;
     }
 
     ul{
         position: relative;
         left: 4vh;
-    }
-
-    header{
-        height: 20vh;
     }
 
     .body-web{
@@ -300,8 +304,8 @@ footer ul{
 
     .about img{
         position: relative;
-        bottom: 56.5vh;
-        width: 48vh;
+        bottom: 56.3vh;
+        width: 50.4vh;
     }
 
     .benefits h2{
@@ -379,9 +383,9 @@ footer ul{
     }
 
     footer ul{
-        position: relative;
-        left: 30vh;
-        top: 2.5vh;
+      position: relative;
+      left: 30vh;
+      top: 2.5vh;
     }
 
     footer p{
