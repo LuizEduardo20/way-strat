@@ -16,7 +16,7 @@ body{
     rgb(158, 239, 255) 100.00%);
 }
 
-.logo{
+header .logo{
     color: #ffffff;
     font-family: "Roboto", sans-serif;
     font-weight: 300;
@@ -267,7 +267,125 @@ footer ul{
 }
 
 @media screen and (max-width: 768px){
-    .intro p{
-        width: 500px;
+
+    *{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+
+    header .logo{
+        display: none;
+    }
+
+    ul{
+        position: relative;
+        left: 4vh;
+    }
+
+    header{
+        height: 20vh;
+    }
+
+    .body-web{
+        height: 160vh;
+    }
+
+    .about p{
+        position: relative;
+        left: 3vh;
+        top: 32vh;
+        width: 40vh;
+    }
+
+    .about img{
+        position: relative;
+        bottom: 56.5vh;
+        width: 50.4vh;
+    }
+
+    .benefits h2{
+        position: relative;
+        left: 8vh;
+        top: 17vh;
+    }
+
+    .benefits p{
+        position: relative;
+        left: 2vh;
+        top: 20vh;
+        width: 43vh;
+    }
+
+    .customization h3{
+        position: relative;
+        left: 5.7vh;
+        top: 30vh;
+    }
+
+    .customization p{
+        width: 45vh;
+        position: relative;
+        left: 1vh;
+        top: 33vh;
+    }
+
+    .conversion h3{
+        width: 40vh;
+        position: relative;
+        left: 3vh;
+        top: 40vh;
+    }
+
+    .conversion p{
+        width: 45vh;
+        position: relative;
+        left: 1vh;
+        top: 42vh;
+    }
+
+    .flexibility h3{
+        position: relative;
+        left: 3vh;
+        top: 56vh;
+        font-size: 7vh;
+    }
+
+    .flexibility p{
+        width: 45vh;
+        position: relative;
+        left: 1vh;
+        top: 58vh;
+    }
+
+    .action{
+        width: 45vh;
+        position: relative;
+        left: 1vh;
+        top: 63vh;
+    }
+
+    .btn-yes button{
+        width: 40vh;
+        position: relative;
+        left: 1vh;
+    }
+
+    .btn-no button{
+        width: 40vh;
+        position: relative;
+        left: 1vh;
+        bottom: 2vh;
+    }
+
+    footer ul{
+        position: relative;
+        left: 30vh;
+        top: 2.5vh;
+    }
+
+    footer p{
+        position: relative;
+        left: 3vh;
     }
 }
