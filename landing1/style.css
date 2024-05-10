@@ -275,7 +275,7 @@ footer ul{
     }
 
     header{
-        height: 20vh;
+      height: 20vh;
     }
 
     header .logo{
@@ -304,8 +304,8 @@ footer ul{
 
     .about img{
         position: relative;
-        bottom: 56.3vh;
-        width: 50.4vh;
+        bottom: 39.2vh;
+        width: 46.2vh;
     }
 
     .benefits h2{
@@ -373,13 +373,14 @@ footer ul{
         width: 40vh;
         position: relative;
         left: 1vh;
+        bottom: 10vh;
     }
 
     .btn-no button{
         width: 40vh;
         position: relative;
         left: 1vh;
-        bottom: 2vh;
+        bottom: 11vh;
     }
 
     footer ul{
