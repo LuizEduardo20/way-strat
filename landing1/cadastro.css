@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    color: #ffffff;
+    background: url('imagens/Img-3.jpg')no-repeat;
+    background-size: cover;
+    font-family: sans-serif;
+}
+
+form h1{
+    font-family: "Radio Canada Big", sans-serif;
+    font-size: 7vh;
+    width: 35vh;
+    position: relative;
+    left: 93vh;
+    top: 25vh;
+    z-index: 1;
+}
+
+fieldset{
+    position: relative;
+    left: 74vh;
+    top: 7vh;
+    text-align: center;
+    width: 70vh;
+    height: 70vh;
+    border-radius: 10px;
+    backdrop-filter: blur(20px);
+}
+
+.box{
+    width: 28vh;
+    height: 25vh;
+    position: relative;
+    left: 5vh;
+    top: 20vh;
+}
+
+.input-box label{
+    font-family: "Lexend Deca", sans-serif;
+    position: relative;
+    right: 7vh;
+}
+
+.input-box input{
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 2.5vh;
+    border-bottom: 1px solid #ffffff;
+    width: 58vh;
+    position: relative;
+    top: 1vh;
+    color: #ffffff;
+}
+
+.phone input{
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 2.5vh;
+    border-bottom: 1px solid #ffffff;
+}
+
+.submit input{
+    width: 58vh;
+    height: 5vh;
+    text-align: center;
+    position: relative;
+    top: 5vh;
+    font-size: 3vh;
+    border: 1px solid #65179f;
+    background-color: #65179f;
+    color: #ffffff;
+}
+
+@media screen and (max-width: 768px){
+    body{
+        background: none;
+        background-color: #8d00da;
+    }
+
+    form h1{
+        position: relative;
+        left: 7vh;
+    }
+
+    fieldset{
+        position: relative;
+        left: 2vh;
+        width: 42vh;
+        height: 65vh;
+    }
+
+    .input-box input{
+        position: relative;
+        right: 2vh;
+        width: 35vh;
+    }
+
+    .input-box label{
+        position: relative;
+        right: 10vh;
+    }
+
+    .submit input{
+        width: 35vh;
+        position: relative;
+        right: 2vh;
+    }
+}
